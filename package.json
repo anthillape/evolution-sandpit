@@ -1,0 +1,13 @@
+{
+  "name": "evolution-sandpit",
+  "version": "0.1.0",
+  "description": "A sandpit where you can influence the evolutionary path of critters by altering their environment",
+  "main": "index.js",
+  "repository": "git@github.com:anthillape/evolution-sandpit.git",
+  "author": "Arthur Comben <anthillape@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2"
+  }
+}
