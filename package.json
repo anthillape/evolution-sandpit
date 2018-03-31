@@ -2,7 +2,7 @@
   "name": "evolution-sandpit",
   "version": "0.1.0",
   "description": "A sandpit where you can influence the evolutionary path of critters by altering their environment",
-  "main": "index.js",
+  "main": "src/index.jsx",
   "repository": "git@github.com:anthillape/evolution-sandpit.git",
   "author": "Arthur Comben <anthillape@gmail.com>",
   "license": "MIT",
@@ -15,14 +15,28 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "parcel-bundler": "^1.6.2",
-    "prettier": "^1.11.1"
+    "prettier": "^1.11.1",
+    "prettier-eslint": "^8.8.1",
+    "prettier-eslint-cli": "^4.7.1"
   },
   "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "prettier": {
+    "useTabs": true,
+    "singleQuote": true,
+    "bracketSpacing": true
   }
 }

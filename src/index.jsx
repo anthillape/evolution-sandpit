@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Layout from 'components/Layout/Layout.jsx';
+
+const foo;
 
 ReactDOM.render(
-  <h1>hai</h1>,
-  document.getElementById('app')
+	  <Layout />,
+	document.getElementById('app')
 );
