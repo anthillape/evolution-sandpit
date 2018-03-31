@@ -1,7 +1,8 @@
 module.exports = {
 	"env": {
 		"browser": true,
-		"es6": true
+		"es6": true,
+		"jest/globals": true
 	},
 	"extends": [
 		"eslint:recommended",
@@ -17,7 +18,8 @@ module.exports = {
 	},
 	"plugins": [
 		"prettier",
-		"react"
+		"react",
+		"jest"
 	],
 	"rules": {
 		"prettier/prettier": "error",
